@@ -1,0 +1,81 @@
+@media only screen and (max-width: 768px) {
+
+    html {
+      font-size: 85%;
+    }
+
+  /**Name work starts here**/
+    #name .row {
+      display: block;
+    }
+
+    .name-left {
+      width: 100%; 
+      padding-left: 0;
+
+      text-align: center;
+   }
+   
+   .name-right {
+       width: 100%; 
+       padding-left: 0;
+       text-align: center;
+    }
+
+    .name-left img {
+      width: 80%;
+     }
+    .name-right h2 span:nth-child(1) {
+      letter-spacing: 1.5rem;
+      margin-left: 1.7rem;
+   }
+
+  /**Name work ends here**/
+
+
+  /**Bag work starts here**/
+
+  #bag .row {
+    display: block;
+  }
+  #bag .bag-left {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+    transition: 1s;
+    position: relative;
+}
+#bag .bag-middle {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+    transition: 1s;
+    position: relative;
+}
+#bag .bag-right {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+    transition: 1s;
+    position: relative;
+}
+
+/**Bag work ends here**/
+
+/**About work starts here**/
+
+#about .row {
+  display: block;
+}
+
+#about .about-left {
+  width: 100%;
+  padding-left: 0rem;
+  text-align: center;
+}
+#about .about-right {
+  width: 100%;
+}
+
+
+}   

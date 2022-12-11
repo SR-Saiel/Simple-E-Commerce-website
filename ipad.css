@@ -1,0 +1,62 @@
+
+@media only screen and (max-width: 992px) {
+
+    html {
+      font-size: 90%;
+    }
+
+    /**Header work starts here**/
+
+    #header .row {
+       display: block;
+    }
+    #header .header-left {
+        text-align: center;
+        width: 100%;    
+    }
+    #header .header-right {
+        text-align: center;
+        width: 100%;    
+    }
+
+    .header-right .searchbox input {
+        width: 20%;
+    }
+
+    /**Header work ends here**/
+
+    /**Name work starts here**/
+
+    .name-left {
+        width: 35%; 
+        padding-left: 1rem;
+     }
+     .name-right {
+         width: 65%; 
+         padding-left: 5rem;
+      }
+    .name-right h2 {
+        font-size:3.5rem ;
+        line-height: 1.2em;
+        color: #551A8B ;
+        font-family: 'Audiowide', cursive;
+        font-weight: 400;
+        text-decoration: none;  
+     }
+    /**Name work ends here**/
+    /**Subcribe work starts here**/
+    #subcribe .subcribe-middle {
+        text-align: center;
+    }
+
+    .subcribe-middle input:nth-child(1) {
+        width: 100%;
+        text-align: center;
+    }
+    .subcribe-middle input:nth-child(2) {
+        text-align: center;
+        margin-left: 0;
+    }
+    /**Subcribe work ends here**/
+
+}    
